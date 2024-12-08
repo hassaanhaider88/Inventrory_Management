@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font: weight 700px;;
+    font-style: normal;
+}
+
+*::selection{
+   background-color: #29d4ff;
+   color: rgb(255, 255, 255);
+}
+
